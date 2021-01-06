@@ -1,0 +1,470 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+*::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+body {
+    background: #3A5167;
+}
+p{
+    
+}
+.title{
+    position: absolute;
+    color: #E4E4E4;
+    font-size: 120px;
+    left: 99vh;
+    /* left: 2.5%; */
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    /* font-family: 'Gugi', cursive; */
+    
+}
+.titley {
+    position: absolute;
+    color: #E4E4E4;
+    font-size: 60px;
+    left: 85vh;
+    top: 15vh;
+    font-family: 'Gugi', cursive;
+}
+.sogae {
+    position: absolute;
+    color: #E4E4E4;
+    font-size: 25px;
+    left: 65.5vh;
+    top: 25vh;
+    font-family: 'Jua', sans-serif;
+}
+.first-container{
+
+}
+
+
+.box1 {
+    position: absolute;
+    height: 600px;
+    width: 325px;
+    background: #F2C335;
+    top: 35vh;
+   opacity:  90%;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #3A5167;
+    font-family: 'Gugi', cursive;
+    font-size: 80px;
+}
+
+.box1:hover {
+    opacity:  100%;
+}
+
+.box2:hover {
+    opacity:  100%;
+}
+.box3:hover {
+    opacity:  100%;
+}
+.box4:hover {
+    opacity:  100%;
+}
+
+
+.box1_a1 {
+    position: absolute;
+    font-size: 40px;
+     left: -5%;
+     bottom: 5%;
+     width: 320px;
+     height: 400px;
+     background: #3A5167;
+    
+     color:#E4E4E4;
+     border-radius: 10px;
+  
+     transition: 0.7s;
+     border: 4px solid #3A5167;
+}
+
+.profy {
+    position: absolute;
+    left: 4%; 
+    top: 10%;
+    text-decoration: none;
+}
+.box1_a2 {
+    position: absolute;
+    font-size: 40px;
+     left: -5%;
+     top: 55%;
+     width: 320px;
+     height: 120px;
+     background: #3A5167;
+     text-decoration: none;
+     color:#E4E4E4;
+     border-radius: 10px;
+     text-align: center;
+     transition: 0.7s;
+     border: 4px solid #3A5167;
+}
+
+.box1_a1:hover {
+    background: #3A5167;
+    color: #E4E4E4;
+    border: 4px solid #04ADBF;
+}
+
+
+.box1_a2:hover {
+    background: #3A5167;
+    color: #E4E4E4;
+    border: 4px solid #04ADBF;
+}
+
+.box2 {
+    opacity:  90%;
+    display: flex;
+    position: absolute;
+    height: 600px;
+    width: 800px;
+    /* background: #2F465C; */
+    background: #04ADBF;
+    top: 35vh;
+    left: 36.5vh;
+    border-radius: 4px;
+    transition: 0.5s;
+    color:  #E4E4E4;
+    font-family: 'Gugi', cursive;
+    font-size: 80px;
+
+
+}
+
+.box2 a h{
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Jua', sans-serif;
+}
+.explainbug h {
+    left: 69.5%;
+    bottom: 2.5%;
+    color: #FEFEFE;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Jua', sans-serif;
+}
+.box2 p {
+    writing-mode: vertical-rl;
+}
+
+
+.box2_a1{
+    position: absolute;
+   font-size: 40px;
+    left: 20%;
+    top: 15%;
+    width: 600px;
+    height: 80px;
+    background: #3A5167;
+    text-decoration: none;
+    color:#E4E4E4;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.7s;
+    border: 4px solid #3A5167;
+} 
+
+.box2_a1:hover{
+    
+    background: #3A5167;
+    color: #E4E4E4;
+    border: 4px solid #F2884B;
+} 
+
+.box2_a2{
+    position: absolute;
+   font-size: 40px;
+    left: 20%;
+    top: 35%;
+    width: 600px;
+    height: 80px;
+    background: #3A5167;
+    text-decoration: none;
+    color: #E4E4E4;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.7s;
+    border: 4px solid #3A5167;
+} 
+
+.box2_a2:hover{
+    
+    background: #3A5167;
+    color: #E4E4E4;
+    border: 4px solid #F2884B;
+} 
+.box2_a3{
+    position: absolute;
+    font-size: 40px;
+    left: 20%;
+    top: 55%;
+    width: 600px;
+    height: 80px;
+    background: #3A5167;
+    text-decoration: none;
+    color:#E4E4E4;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.7s;
+    border: 4px solid #3A5167;
+} 
+
+.box2_a3:hover{
+    
+    background: #3A5167;
+    color: #E4E4E4;
+    border: 4px solid #F2884B;
+} 
+.box2_a4{
+    position: absolute;
+   font-size: 40px;
+    left: 20%;
+    top: 75%;
+    width: 600px;
+    height: 80px;
+    background:  #3A5167;
+    text-decoration: none;
+    color: #E4E4E4;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.7s;
+    border: 4px solid #3A5167;
+} 
+
+.box2_a4:hover{
+    
+    background: #3A5167;
+    color: #E4E4E4;
+    border: 4px solid #F2884B;
+} 
+
+
+.button-wapper{
+    
+}
+
+.box3 {
+    opacity:  90%;
+    position: absolute;
+    height: 600px;
+    width: 500px;
+    background: #D95970;
+    top: 35vh;
+    left: 122vh;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #E4E4E4;
+    font-family: 'Gugi', cursive;
+    font-size: 60px;
+}
+.box3 p{
+   /* writing-mode: vertical-rl ;*/
+   position: relative;
+  left: 15%;
+}
+
+.box3_a1{
+    position: absolute;
+    font-size: 40px;
+     left: 10%;
+     top: 20%;
+     width: 200px;
+     height: 130px;
+     background: #FED437;
+     text-decoration: none;
+     color:#3A5167;
+     border-radius: 10px;
+     text-align: center;
+     transition: 0.7s;
+     border: 4px solid #FED437;
+}
+
+.box3_a2{
+    position: absolute;
+    font-size: 40px;
+     left: 55%;
+     top: 20%;
+     width: 200px;
+     height:280px;
+     background: #FED437;
+     text-decoration: none;
+     color:#3A5167;
+     border-radius: 10px;
+     text-align: center;
+     transition: 0.7s;
+     border: 4px solid #FED437;
+}
+
+.box3_a3{
+    position: absolute;
+    font-size: 40px;
+     left: 10%;
+     top: 70.0%;
+     width: 425px;
+     height: 160px;
+     background: #FED437;
+     text-decoration: none;
+     color:#3A5167;
+     border-radius: 10px;
+     text-align: center;
+     transition: 0.7s;
+     border: 4px solid #FED437;
+}
+.box3_a4{
+    position: absolute;
+    font-size: 40px;
+     left: 10%;
+     top: 45%;
+     width: 200px;
+     height: 130px;
+     background: #FED437;
+     text-decoration: none;
+     color:#3A5167;
+     border-radius: 10px;
+     text-align: center;
+     transition: 0.7s;
+     border: 4px solid #FED437;
+}
+.box3_a1:hover{
+    
+    background: #3A5167;
+    color: #E4E4E4;
+    border: 4px solid #E4E4E4;
+} 
+.box3_a2:hover{
+    
+    background: #3A5167;
+    color: #E4E4E4;
+    border: 4px solid #E4E4E4;
+} 
+.box3_a3:hover{
+    
+    background: #3A5167;
+    color: #E4E4E4;
+    border: 4px solid #E4E4E4;
+} 
+.box3_a4:hover{
+    
+    background: #3A5167;
+    color: #E4E4E4;
+    border: 4px solid #E4E4E4;
+} 
+
+.box4 {
+    opacity:  90%;
+    position: absolute;
+    height: 600px;
+    width: 210px;
+    background: #E4E4E4;
+    color:  #3A5167;
+    font-family: 'Gugi', cursive;
+    font-size: 80px;
+    top: 35vh;
+    left: 176.5vh;
+    border-radius: 4px;
+    transition: 0.5s;
+
+}
+
+.box4 p{
+    margin: auto 0;
+}
+
+.abiliy {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+.box4_a1 {
+    position: absolute;
+    font-size: 40px;
+     left: 10%;
+     top: 5%;
+     width: 300px;
+     height: 200px;
+     background: #3A5167;
+     text-decoration: none;
+     color:#E4E4E4;
+     border-radius: 10px;
+     text-align: center;
+     transition: 0.7s;
+     border: 4px solid #3A5167;
+}
+
+.box4_a1 h {
+    position: absolute;
+    top: 35%;
+    font-size: 60px;
+}
+
+.box4_a2 {
+    position: absolute;
+    font-size: 40px;
+     left: 10%;
+     top: 60%;
+     width: 300px;
+     height: 200px;
+     background: #3A5167;
+     text-decoration: none;
+     color:#E4E4E4;
+     border-radius: 10px;
+     text-align: center;
+     transition: 0.7s;
+     border: 4px solid #3A5167;
+}
+.box4_a2 h {
+    position: absolute;
+    top: 35%;
+    font-size: 60px;
+}
+
+.box4_a1:hover{
+    
+    background: #3A5167;
+    color: #E4E4E4;
+    border: 4px solid#F2C335;
+} 
+.box4_a2:hover{
+    
+    background: #3A5167;
+    color: #E4E4E4;
+    border: 4px solid #F2C335;
+} 
+
+
+
+.box1:hover {
+    
+    transform: scale(1.05);
+}
+.box2:hover {
+    
+    transform: scale(1.05);
+}
+.box3:hover {
+    
+    transform: scale(1.05);
+}
+.box4:hover {
+    
+    transform: scale(1.05);
+}
