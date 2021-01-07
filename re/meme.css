@@ -206,3 +206,11 @@ display: flex;
     font-size: 100px;
     color:#E4E4E4;
 }
+
+.right_wapper .texter{
+    margin: 20px;   font-size: 15px;
+    color:#3A5167;
+    font-family: 'Jua', sans-serif;
+
+}
+ 
