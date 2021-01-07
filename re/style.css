@@ -93,7 +93,7 @@ p{
 }
 .box1_a1 h{
     position: absolute;
-    text-decoration: none; font-size: 12.5px;
+    text-decoration: none; font-size: 14.5px;
     left: 10%;
 }
 
@@ -420,8 +420,9 @@ p{
 
 .box4_a1 h {
     position: absolute;
-    top: 35%;
-    font-size: 60px;
+    top: 5%;
+    font-size: 15px;
+    left: 5%;
 }
 
 .box4_a2 {
