@@ -177,9 +177,10 @@ display: flex;
 	width: 50%;
 	height: 50%;
 	padding: 16px;
-	border: 16px solid orange;
-	background-color: white;
-	overflow: auto;	
+	border: 16px solid #F2884B;
+	background-color: #E4E4E4;
+    overflow: auto;	
+    border-radius: 5px;
 }
 
 .quit {
